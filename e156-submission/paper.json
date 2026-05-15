@@ -1,0 +1,96 @@
+{
+  "title": "CT.gov Description-Black-Box Repeaters",
+  "slug": "ctgov-description-black-box-repeaters",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "body": "Which named sponsors accumulate the most CT.gov pages that are overdue, unlinked, and missing both detailed descriptions and primary outcome descriptions? We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot. We defined a description black-box study as one with a two-year results gap, no linked publication, no detailed description, and no primary outcome description, then ranked sponsors with at least 100 studies. Boehringer Ingelheim led the named-sponsor table at 661 studies, followed by Pfizer at 408, Hoffmann-La Roche at 383, and AstraZeneca at 357. Mylan Pharmaceuticals Inc reached the highest large-sponsor rate at 93.7 percent, while industry reached 13.6 percent and OTHER 4.2 percent as sponsor classes. This definition isolates a stricter narrative blackout where registry pages remain silent on descriptive text and dissemination, not only on results status. Description black-box status is a registry visibility measure and does not prove the study lacked protocols, manuscripts, or documentation outside CT.gov.",
+  "word_count": 156,
+  "sentence_count": 7,
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "Which named sponsors accumulate the most CT.gov pages that are overdue, unlinked, and missing both detailed descriptions and primary outcome descriptions?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot."
+    },
+    {
+      "role": "Method",
+      "text": "We defined a description black-box study as one with a two-year results gap, no linked publication, no detailed description, and no primary outcome description, then ranked sponsors with at least 100 studies."
+    },
+    {
+      "role": "Primary result",
+      "text": "Boehringer Ingelheim led the named-sponsor table at 661 studies, followed by Pfizer at 408, Hoffmann-La Roche at 383, and AstraZeneca at 357."
+    },
+    {
+      "role": "Secondary result",
+      "text": "Mylan Pharmaceuticals Inc reached the highest large-sponsor rate at 93.7 percent, while industry reached 13.6 percent and OTHER 4.2 percent as sponsor classes."
+    },
+    {
+      "role": "Interpretation",
+      "text": "This definition isolates a stricter narrative blackout where registry pages remain silent on descriptive text and dissemination, not only on results status."
+    },
+    {
+      "role": "Boundary",
+      "text": "Description black-box status is a registry visibility measure and does not prove the study lacked protocols, manuscripts, or documentation outside CT.gov."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov Description-Black-Box Repeaters dashboard",
+    "data": "249,507 eligible older closed interventional studies with description-black-box sponsor and class summaries",
+    "code": "https://github.com/mahmood726-cyber/ctgov-description-black-box-repeaters",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "type": "methods",
+  "primary_estimand": "Description black-box stock among older studies with no results, no linked publication, no detailed description, and no primary outcome description",
+  "validation": {
+    "status": "pass",
+    "checks": [
+      {
+        "name": "single paragraph",
+        "ok": true,
+        "detail": "Body must not contain blank-line paragraph breaks."
+      },
+      {
+        "name": "sentence count",
+        "ok": true,
+        "detail": "Found 7 sentences."
+      },
+      {
+        "name": "word count",
+        "ok": true,
+        "detail": "Found 156 words."
+      },
+      {
+        "name": "no headings",
+        "ok": true,
+        "detail": "No markdown headings allowed in body."
+      },
+      {
+        "name": "no links",
+        "ok": true,
+        "detail": "No links or DOI links allowed in body."
+      },
+      {
+        "name": "result sentence has interval",
+        "ok": true,
+        "detail": "Sentence 4 should include a quantitative result such as a percentage, count, or interval."
+      },
+      {
+        "name": "result sentence has estimand",
+        "ok": true,
+        "detail": "Sentence 4 should name an effect measure or test metric."
+      },
+      {
+        "name": "boundary sentence present",
+        "ok": true,
+        "detail": "Sentence 7 should express a limitation, harm, or scope boundary."
+      }
+    ]
+  },
+  "schema": "e156-v0.2"
+}
