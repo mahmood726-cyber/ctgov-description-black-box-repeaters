@@ -3,7 +3,7 @@
   "slug": "ctgov-description-black-box-repeaters",
   "author": "Mahmood Ahmad",
   "date": "2026-03-29",
-  "path": "C:\\Projects\\ctgov-analyses/ctgov-description-black-box-repeaters",
+  "path": "https://github.com/mahmood726-cyber/ctgov-description-black-box-repeaters",
   "type": "methods",
   "primary_estimand": "Description black-box stock among older studies with no results, no linked publication, no detailed description, and no primary outcome description",
   "summary": "A standalone E156 project on named sponsors whose older CT.gov records are overdue, unlinked, and missing both detailed descriptions and primary outcome descriptions.",
